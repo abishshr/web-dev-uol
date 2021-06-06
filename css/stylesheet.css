@@ -24,6 +24,29 @@ tr{
     font-weight: 300;
 }
 
-body{
-    background-image: url("https://www.pricerighthome.com/media/catalog/product/cache/1/image/765x937/9df78eab33525d08d6e5fb8d27136e95/m/a/mar128_marvel_comic_strip_wallpaper_black_white_p1.jpg")
-}
+
+.index-body-wrap {
+    position: relative;
+  }
+  
+.index-body-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image:  url('https://d31wxntiwn0x96.cloudfront.net/njrjcf/productimages/11812_1.jpeg?etag=%2295f27514e091002318a72ea19344dc9a%22&width=800&height=600&nostretch');
+    background-repeat: round;
+    background-size: 400px;
+
+  }
+.index-body-content {
+    position: relative;
+  }
+
+
+
+
