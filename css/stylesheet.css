@@ -1,0 +1,25 @@
+z/*Importing Marvel Font from Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+/*Importing Rubik Font from Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+
+h1{
+    font-family: 'Marvel', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    color: black;
+    font-variant: normal;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;  
+}
+
+tr{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
