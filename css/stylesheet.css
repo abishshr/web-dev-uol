@@ -14,6 +14,64 @@ h1{
     color: black;
     font-variant: normal;
 }
+h2{
+  font-family: 'Marvel', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5em;
+  color:black;
+  font-variant: normal;
+}
+
+h3{
+    font-family: 'Rubik', sans-seriff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 17px;;
+    color: black;
+}
+.RideHulk h2 {
+  color:green;
+}
+
+.RideHulkDescription p {
+  color: green;
+}
+
+.RideHulkOpeningTimes {
+  color: green;
+}
+
+.RideIronMan h2 {
+  color:red;
+}
+
+.RideIronMan p {
+  color:red;
+}
+
+.RideIronManOpeningTimes {
+  color: red;
+}
+
+.RideSpiderman h2 {
+  color:red;
+}
+
+.RideSpiderman p {
+  color:red;
+}
+
+.RideSpidermanOpeningTimes {
+  color: red;
+}
+
+
+
+
+
+
 
 p{
   font-family: 'Rubik', sans-serif;  
