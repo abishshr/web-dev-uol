@@ -48,5 +48,33 @@ tr{
   }
 
 
+.about-the-park-body-wrap {
+    position: relative;
+  }
+
+.about-the-park-body-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
+    background-repeat: round;
+    background-size: 400px;
+  }
+
+.about-the-park-body-content {
+    position: relative;
+  }');
+    background-repeat: round;
+    background-size: 400px;
+
+  }
+.about-the-park-body-content {
+    position: relative;
+  }
 
 
