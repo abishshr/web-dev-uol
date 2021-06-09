@@ -1,4 +1,4 @@
-z/*Importing Marvel Font from Google Font*/
+/*Importing Marvel Font from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
 
 /*Importing Rubik Font from Google Font*/
@@ -16,7 +16,12 @@ h1{
 }
 
 p{
-  font-family: 'Rubik', sans-serif;  
+  font-family: 'Rubik','Marvel', sans-serif; 
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 1em;
+  color: black;
+  font-variant: normal;
 }
 
 tr{
@@ -38,9 +43,9 @@ tr{
     width: 100%;
     height: 100%;
     opacity: 0.2;
-    background-image:  url('https://d31wxntiwn0x96.cloudfront.net/njrjcf/productimages/11812_1.jpeg?etag=%2295f27514e091002318a72ea19344dc9a%22&width=800&height=600&nostretch');
-    background-repeat: round;
-    background-size: 400px;
+    background-image:  url('https://www.wallpaperup.com/uploads/wallpapers/2013/08/28/139975/7d64d84d499b26ed32601b80c6c6fb66.jpg');
+    /* background-repeat: round; */
+    background-size: 3000px;
 
   }
 .index-body-content {
@@ -48,5 +53,27 @@ tr{
   }
 
 
+
+.things-to-do-body-wrap {
+    position: relative;
+  }
+  
+.things-to-do-body-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
+    background-repeat: round;
+    background-size: 400px;
+
+  }
+.things-to-do-body-content {
+    position: relative;
+  }
 
 
