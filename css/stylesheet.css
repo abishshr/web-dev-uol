@@ -107,6 +107,8 @@ tr{
     /* background-repeat: round; */
     background-size: 3000px;
 
+
+
   }
 .index-body-content {
     position: relative;
@@ -151,6 +153,7 @@ tr{
     background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
     background-repeat: round;
     background-size: 400px;
+    
 
   }
 .things-to-do-body-content {
@@ -251,11 +254,12 @@ footer{
 	width: 20%;
   margin-right: 3%;
   margin-left: 0%;
+  
 }
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 17px 'Cookie', cursive;
 	margin: 0;
 }
 
@@ -267,6 +271,7 @@ footer{
 
 .footer-distributed h3 span{
 	color:  #e0ac1c;
+  
 }
 
 /* Footer links */
