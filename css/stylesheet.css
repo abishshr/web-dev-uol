@@ -390,4 +390,36 @@ footer{
 	margin-bottom: 5px;
 }
 
-/* Here is 
+
+/* Used mostly red and orange colours as:
+   1) Marvel heavily uses red in its franchise
+   2) We want to attact customers and direct them to Buy Tickets
+   -we believe bright colours will increase ticket purchases
+*/
+
+#i-specialoffer-image { 
+  border: 0x solid RGB(255, 0, 00);
+  box-shadow: 7px 7px 30px RGB(255, 90, 00);
+  -webkit-box-shadow: RGB(255, 90, 00);
+}
+
+#i-ticket-image { 
+  border: 3px solid RGB(240, 20, 00);
+  box-shadow: 15px 15px 15px RGB(255, 50, 30);
+  -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
+  -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
+}
+
+#i-reserve-image { 
+  border: 3px solid RGB(240, 20, 00);
+  box-shadow: 15px 15px 15px RGB(255, 50, 30);
+  -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
+  -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
+}
+
+#i-safety-image { 
+  border: 3px solid RGB(240, 20, 00);
+  box-shadow: 15px 15px 15px RGB(255, 50, 30);
+  -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
+  -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
+}
