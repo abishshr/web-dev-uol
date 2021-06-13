@@ -15,6 +15,7 @@ h1{
     color: black;
     font-variant: normal;
 }
+
 h2{
   font-family: 'Marvel', sans-serif;
   font-weight: 400;
@@ -33,6 +34,7 @@ h3{
     font-size: 17px;;
     color: black;
 }
+
 .RideHulk h2 {
   color:green;
 }
@@ -69,9 +71,21 @@ h3{
   color: red;
 }
 
+#i-aip-map-image {
+  box-shadow: 10px 10px 5px grey;
+}
 
+#i-aip-ironman-image {
+  box-shadow: 5px 5px 2px red;
+}
 
+#i-aip-hulk-image {
+  box-shadow: 5px 5px 2px limegreen;
+}
 
+#i-aip-spiderman-image {
+  box-shadow: 5px 5px 2px red;
+}
 
 
 
