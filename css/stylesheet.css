@@ -14,6 +14,7 @@ h1{
     font-weight: bold;
     color: black;
     font-variant: normal;
+    text-shadow: 1px 1px 2px black;
 }
 h2{
   font-family: 'Marvel', sans-serif;
@@ -30,8 +31,9 @@ h3{
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    font-size: 17px;;
+    font-size: 18px;;
     color: black;
+    
 }
 .RideHulk h2 {
   color:green;
@@ -89,7 +91,7 @@ tr{
     font-weight: 300;
 }
 
-
+/* Creating a body wrap for adding a background image for index page  */
 .index-body-wrap {
     position: relative;
   }
@@ -115,6 +117,7 @@ tr{
   }
 
 
+/* Creating a body wrap for adding a background image for about the park page  */
 .about-the-park-body-wrap {
     position: relative;
   }
@@ -137,6 +140,8 @@ tr{
     position: relative;
   }
 
+
+/* Creating a body wrap for adding a background image for Things to do page  */
 .things-to-do-body-wrap {
     position: relative;
   }
@@ -159,7 +164,7 @@ tr{
 .things-to-do-body-content {
     position: relative;
   }
-
+/* navigation bar   */
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -171,6 +176,7 @@ tr{
   width: 100%;
   opacity: .9;
 }
+/* navigation bar items  */
 .nav-item-page-link {
   float: left;
   font-family: 'Marvel', sans-serif;
@@ -178,30 +184,24 @@ tr{
   font-weight: bold;
   font-size: 1.2em;
 }
+/* navigation bar logo  */
 .nav-item-logo {
   float: left;
   padding: 0px 0px; 
 }
+/* navigation bar logo  */
 .nav-item-page-button {
     float: right;
     font-family: 'Marvel', sans-serif;
     font-style: normal;
     font-size: 1.2em;
+    padding: 14px 16px; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
 }
 
-
-.nav-item-page-button  {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px; 
-  text-decoration: none;
-  }
-
-
-
-
-  
+/* navigation bar page link  */
 .nav-item-page-link  a {
 display: block;
 color: rgb(255, 255, 255);
@@ -209,17 +209,17 @@ text-align: center;
 padding: 14px 16px; 
 text-decoration: none;
 }
-
+/* navigation bar page link not active*/
 .nav-item-page-link a:hover:not(.active) {
 background-color: #111;
 }
-
+/* navigation bar page link active*/
 .active {
 background-color: #04AA6D;
 
 }
 
-
+/* Footer */
 footer{
 	/* position: fixed; */
 	bottom: 0;
@@ -230,7 +230,6 @@ footer{
 	footer { position: static; }
 	header { padding-top:40px; }
 }
-
 
 .footer-distributed{
 	background-color: #333;
@@ -253,7 +252,6 @@ footer{
 }
 
 /* Footer left */
-
 .footer-distributed .footer-left{
 	width: 20%;
   margin-right: 3%;
@@ -268,7 +266,6 @@ footer{
 }
 
 /* The company logo */
-
 .footer-distributed .footer-left img{
 	width: 40%;
 }
@@ -279,7 +276,6 @@ footer{
 }
 
 /* Footer links */
-
 .footer-distributed .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
@@ -300,7 +296,6 @@ footer{
 }
 
 /* Footer Center */
-
 .footer-distributed .footer-center{
 	width: 20%;
   margin-right: 20%;
@@ -347,7 +342,6 @@ footer{
 
 
 /* Footer Right */
-
 .footer-distributed .footer-right{
 	width: 20%;
   
@@ -390,4 +384,57 @@ footer{
 	margin-bottom: 5px;
 }
 
-/* Here is 
+/* All 4D ride object uses same red  color to help user identify */
+#tod-ultron-image {
+  border: 2px solid rgb(240, 19, 30);
+  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
+  box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -moz-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -webkit-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+  
+}
+
+/* All Spider Man  object uses same blue color to help user identify */
+#i-tod-spiderman-image {
+  border: 2px solid #2B3784;
+  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
+  box-shadow: 10px 10px 5px #2B3784;
+    -moz-box-shadow: 10px 10px 5px #2B3784;
+    -webkit-box-shadow: 10px 10px 5px #2B3784;
+    -khtml-box-shadow: 10px 10px 5px #2B3784;
+  
+}
+/* All hulk  object uses same hulk green color to help user identify */
+#i-tod-hulk-image {
+  border: 2px solid #008000;
+  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
+  box-shadow: 10px 10px 5px #008000;
+    -moz-box-shadow: 10px 10px 5px #008000;
+    -webkit-box-shadow: 10px 10px 5px #008000;
+    -khtml-box-shadow: 10px 10px 5px #008000;
+  
+}
+
+
+/* All live shows  object uses same grey color to help user identify */
+#tod-live-image {
+  border: 2px solid rgb(10, 0, 0);
+  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
+  box-shadow: 10px 10px 5px rgb(112, 111, 111);
+      -moz-box-shadow: 10px 10px 5px rgb(112, 111, 111);
+      -webkit-box-shadow: 10px 10px 5px rgb(112, 111, 111);
+      -khtml-box-shadow: 10px 10px 5px rgb(112, 111, 111);
+  
+}
+
+/* All safari object uses same specific safari color to help user identify */
+#tod-safari-image {
+  border: 2px solid rgb(10, 0, 0);
+  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
+  box-shadow: 10px 10px 5px #C0A469;
+      -moz-box-shadow: 10px 10px 5px #C0A469;
+      -webkit-box-shadow: 10px 10px 5px #C0A469;
+      -khtml-box-shadow: 10px 10px 5px #C0A469;
+  
+}
