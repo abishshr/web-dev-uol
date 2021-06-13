@@ -10,7 +10,7 @@
 h1{
     font-family: 'Marvel', sans-serif;
     font-style: normal;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
     color: black;
     font-variant: normal;
@@ -20,11 +20,12 @@ h1{
 h2{
   font-family: 'Marvel', sans-serif;
   font-weight: 400;
-  font-style: italic;
+  font-style: regular;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2.3em;
   color:black;
   font-variant: normal;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 h3{
@@ -494,3 +495,35 @@ footer{
     -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30);
   
 }
+
+/* Things to do page  */
+.top-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 600px;
+  height: 800px;
+  align-content: space-between;
+
+}
+.middle-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 600px;
+  height: 700px;
+  align-content: space-between;
+}
+.bottom-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 600px;
+  height: 700px;
+  align-content: space-between;
+}
+
+.tod-heading-content ,.tod-heading-main ,.top-grid h3,.middle-grid h3,.bottom-grid h3{
+  text-align: center;
+}
+
