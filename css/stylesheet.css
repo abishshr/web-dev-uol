@@ -484,3 +484,13 @@ footer{
   -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
 }
+
+#i-ironman-image {
+  border: 2px solid rgb(240, 19, 30);
+  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
+  box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -moz-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -webkit-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+  
+}
