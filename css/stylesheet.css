@@ -3,6 +3,7 @@
 
 /*Importing Rubik Font from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
 
 
@@ -106,6 +107,8 @@ tr{
     /* background-repeat: round; */
     background-size: 3000px;
 
+
+
   }
 .index-body-content {
     position: relative;
@@ -150,6 +153,7 @@ tr{
     background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
     background-repeat: round;
     background-size: 400px;
+    
 
   }
 .things-to-do-body-content {
@@ -165,16 +169,24 @@ tr{
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: .9;
 }
 .nav-item-page-link {
   float: left;
+  font-family: 'Marvel', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 .nav-item-logo {
   float: left;
   padding: 0px 0px; 
 }
 .nav-item-page-button {
-  float: right;
+    float: right;
+    font-family: 'Marvel', sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
 }
 
 
@@ -185,6 +197,10 @@ tr{
   padding: 14px 16px; 
   text-decoration: none;
   }
+
+
+
+
   
 .nav-item-page-link  a {
 display: block;
@@ -202,3 +218,176 @@ background-color: #111;
 background-color: #04AA6D;
 
 }
+
+
+footer{
+	/* position: fixed; */
+	bottom: 0;
+ 
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #333;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	/* padding: 50px 50px 60px 50px; */
+  padding: 15px 15px 20px 15px;
+	margin-top: 70px;
+  opacity: 0.9;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 20%;
+  margin-right: 3%;
+  margin-left: 0%;
+  
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 17px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 40%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+  
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 20%;
+  margin-right: 20%;
+  margin-left: 15%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+  
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 10;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is 
