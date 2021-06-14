@@ -500,10 +500,13 @@ footer{
 #i-ironman-image {
   border: 2px solid rgb(240, 19, 30);
   /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
-  box-shadow: 10px 10px 5px rgb(240, 19, 30);
+  /* box-shadow: 10px 10px 5px rgb(240, 19, 30);
     -moz-box-shadow: 10px 10px 5px rgb(240, 19, 30);
     -webkit-box-shadow: 10px 10px 5px rgb(240, 19, 30);
-    -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30);
+    -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30); */
+    box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
+    
+  
   
 }
 
@@ -699,7 +702,7 @@ footer{
 .index-heading-main{
 
   text-align: center;
-  padding-top: 600px;
+  padding-top: 670px;
   font-family: 'Marvel', arial;
   font-size: 9px;
   font-weight: bold;
