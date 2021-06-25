@@ -39,7 +39,7 @@ h3{
 }
 
 .RideHulk h2 {
-  color:green;
+  color:black;
 }
 
 .RideHulkDescription p {
@@ -51,7 +51,7 @@ h3{
 }
 
 .RideIronMan h2 {
-  color:red;
+  color:black;
 }
 
 .RideIronMan p {
@@ -63,7 +63,7 @@ h3{
 }
 
 .RideSpiderman h2 {
-  color:red;
+  color:black;
 }
 
 .RideSpiderman p {
@@ -95,7 +95,10 @@ h3{
   box-shadow: 5px 5px 2px red;
 }
 
-
+.grid-container-aip {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
 
 p{
   font-family: 'Rubik','Marvel', sans-serif; 
