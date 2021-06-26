@@ -437,12 +437,7 @@ border-radius: 20px;
     box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
     border-radius: 20px;
     filter: brightness(50%);
-  
-  
 }
-
-
-
 
 /* All live shows  object uses same grey color to help user identify */
 #tod-live-image {
@@ -473,16 +468,10 @@ border-radius: 20px;
    -we believe bright colours will increase ticket purchases
 */
 
-#i-specialoffer-image { 
-  border: 0x solid RGB(255, 0, 00);
-  box-shadow: 7px 7px 30px RGB(255, 90, 00);
-  -webkit-box-shadow: RGB(255, 90, 00);
-  animation: colorchange 4s;
-  animation-iteration-count:infinite;
-}
 
 #i-ticket-image { 
   border: 3px solid RGB(240, 20, 00);
+  border-radius: 20px;
   box-shadow: 15px 15px 15px RGB(255, 50, 30);
   -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
@@ -490,6 +479,7 @@ border-radius: 20px;
 
 #i-reserve-image { 
   border: 3px solid RGB(240, 20, 00);
+ border-radius: 20px;
   box-shadow: 15px 15px 15px RGB(255, 50, 30);
   -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
@@ -497,6 +487,7 @@ border-radius: 20px;
 
 #i-safety-image { 
   border: 3px solid RGB(240, 20, 00);
+  border-radius: 20px;
   box-shadow: 15px 15px 15px RGB(255, 50, 30);
   -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
@@ -821,6 +812,11 @@ border-radius: 20px;
     height: auto;
   }
 }
+
+
+
+/* INDEX PAGE SPECIFIC POSITIONING  */
+
 .video-container {
   position:absolute;
   top:-100px;
@@ -901,37 +897,46 @@ min-height: 500px;
 
 
 
-/* Index page positioning  */
-
-
 .index-top-grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   flex-wrap: wrap;
   width: 500px;
-  height: 650px;
+  height: 500px;
   align-content: space-between;
   gap: 2em;
+  z-index: -1;
+  justify-content: left;
 
 
 }
-.specialOffer {
+.index-mid-grid {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 600px;
+  align-content: space-between;
+  gap: 2em;
+  z-index: -1;
+  justify-content: left;
+
 
 }
 .index-bottom-grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 450px;
-  height: 590px;
+  width: 500px;
+  height: 500px;
   align-content: space-between;
-  gap: 5em;
+  gap: 2em;
  
 }
 
-.index-heading-content ,.index-heading-main ,.index-top-grid h3,.index-bottom-grid h3{
+.index-heading-content ,.index-heading-main ,.index-top-grid h3, .index-mid-grid h3, .index-bottom-grid h3{
   text-align: center;
 }
 
@@ -967,3 +972,113 @@ buttonpic1{
   background: #c00;
 	border-radius: 25px;
 }
+
+
+}
+.i-top-left,.i-top-center,.i-top-right,
+.i-middle-right,.i-middle-center,.i-middle-left,
+.i-bottom-right,.i-bottom-center,.i-bottom-left{
+  position: relative;
+  text-align: left;
+
+  transition: transform .2s; /* Animation */
+ 
+}
+.i-top-left h2{
+  position: relative;
+  color: black;
+  bottom: 75px;
+  left: 0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 25px;
+
+ 
+}
+.i-top-center h2{
+  position: relative;
+  color: black;
+  bottom: 75px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 25px;
+ 
+}
+.i-top-right h2{
+  position: relative;
+  color: black;
+  bottom: 75px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 25px;
+}
+
+.i-middle-left h2{
+  position: relative;
+  color: white;
+  bottom: 500px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+.i-middle-center h2{
+  position: relative;
+  color: white;
+  bottom: 500px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 35px;
+  font-weight: bold;
+
+ 
+}
+.i-middle-right h2{
+  position: relative;
+  color: white;
+  bottom: 500px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 35px;
+  font-weight: bold;
+ 
+}
+
+.i-bottom-left h2{
+  position: relative;
+  color: white;
+  bottom: 110px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: bold;
+ 
+}
+.i-bottom-center h2{
+  position: relative;
+  color: white;
+  bottom: 110px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: bold;
+ 
+}
+.i-bottom-right h3{
+  position: relative;
+  color: white;
+  bottom: 110px;
+  left:0px;
+  font-family: 'Marvel', sans-serif;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: bold;
+ }
