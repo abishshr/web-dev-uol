@@ -398,6 +398,7 @@ footer{
     -webkit-box-shadow: 10px 10px 5px rgb(240, 19, 30);
     -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30);
     box-shadow: rgba(223, 31, 45, 0.8) 0px 7px 29px 0px;
+    border-radius: 20px;
     
   
 }
@@ -406,14 +407,41 @@ footer{
 #i-tod-spiderman-image ,#i-aip-spiderman-image{
   border: 2px solid #2B3784;
     box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
+  border-radius: 20px;
   
 }
+
+
+
 /* All hulk  object uses same hulk green color to help user identify */
 #i-tod-hulk-image ,#i-aip-hulk-image {
   border: 2px solid #008000;
-    box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;    
+    box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;  
+    border-radius: 20px;  
   
 }
+#i-hulk-image {
+  filter: brightness(50%);
+  border: 2px solid #008000;
+  box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;  
+  border-radius: 20px;  
+}
+#i-spiderman-image {
+  filter: brightness(50%);
+  border: 2px solid #2B3784;
+  box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
+border-radius: 20px;
+}
+#i-ironman-image {
+  border: 2px solid rgb(240, 19, 30);
+    box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
+    border-radius: 20px;
+    filter: brightness(50%);
+  
+  
+}
+
+
 
 
 /* All live shows  object uses same grey color to help user identify */
@@ -424,6 +452,7 @@ footer{
       -moz-box-shadow: 10px 10px 5px rgb(112, 111, 111);
       -webkit-box-shadow: 10px 10px 5px rgb(112, 111, 111);
       -khtml-box-shadow: 10px 10px 5px rgb(112, 111, 111);
+      border-radius: 20px;
   
 }
 
@@ -434,7 +463,8 @@ footer{
   box-shadow: 10px 10px 5px #C0A469;
       -moz-box-shadow: 10px 10px 5px #C0A469;
       -webkit-box-shadow: 10px 10px 5px #C0A469;
-      -khtml-box-shadow: 10px 10px 5px #C0A469; }
+      -khtml-box-shadow: 10px 10px 5px #C0A469;
+  border-radius: 20px; }
   
 
 /* Used mostly red and orange colours as:
@@ -472,18 +502,7 @@ footer{
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
 }
 
-#i-ironman-image {
-  border: 2px solid rgb(240, 19, 30);
-  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
-  /* box-shadow: 10px 10px 5px rgb(240, 19, 30);
-    -moz-box-shadow: 10px 10px 5px rgb(240, 19, 30);
-    -webkit-box-shadow: 10px 10px 5px rgb(240, 19, 30);
-    -khtml-box-shadow: 10px 10px 5px rgb(240, 19, 30); */
-    box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
-    
-  
-  
-}
+
 /* -------------Things to Do Specific styling is below------------------------ */
 
 /* Creating a body wrap for adding a background image for Things to do page  */
@@ -906,8 +925,10 @@ min-height: 500px;
   flex-wrap: wrap;
   flex-direction: column;
   width: 450px;
-  height: 450px;
+  height: 590px;
   align-content: space-between;
+  gap: 5em;
+ 
 }
 
 .index-heading-content ,.index-heading-main ,.index-top-grid h3,.index-bottom-grid h3{
@@ -939,4 +960,10 @@ min-height: 500px;
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+buttonpic1{
+  background: #c00;
+	border-radius: 25px;
 }
