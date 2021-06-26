@@ -77,23 +77,20 @@ h3{
 #i-aip-map-image {
   box-shadow: 10px 10px 5px grey;
 }
-
+#InfinityImageMap {
+  padding-left: 10%;
+}
+#InfinityCaption{
+  padding-left: 40%;
+  font-family: 'Marvel', sans-serif;
+  font-style: normal;
+  font-size: 1.3em;
+  font-weight: bold;
+}
 #i-aip-ironman-image {
-
-  /* box-shadow: 10px 10px 5px red;;
-  -moz-box-shadow: 10px 10px 5px red;
-  -webkit-box-shadow: 10px 10px 5px red;
-  -khtml-box-shadow: 10px 10px 5px red; */
   box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;    
 }
 
-#i-aip-hulk-image {
-  box-shadow: 5px 5px 2px limegreen;
-}
-
-#i-aip-spiderman-image {
-  box-shadow: 5px 5px 2px red;
-}
 
 .grid-container-aip {
     display: grid;
@@ -146,18 +143,20 @@ tr{
   }
 
 .about-the-park-body-wrap:before {
+ 
     content: ' ';
     display: block;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 140%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.2;
     background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
-    background-repeat: round;
-    background-size: 400px;
-    ;
+    background-repeat:round;
+    background-size:width;
+
+
   }
 
 .about-the-park-body-content {
@@ -404,13 +403,13 @@ footer{
 }
 
 /* All Spider Man  object uses same blue color to help user identify */
-#i-tod-spiderman-image {
+#i-tod-spiderman-image ,#i-aip-spiderman-image{
   border: 2px solid #2B3784;
     box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
   
 }
 /* All hulk  object uses same hulk green color to help user identify */
-#i-tod-hulk-image {
+#i-tod-hulk-image ,#i-aip-hulk-image {
   border: 2px solid #008000;
     box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;    
   
@@ -892,8 +891,9 @@ min-height: 500px;
   flex-direction: column;
   flex-wrap: wrap;
   width: 500px;
-  height: 450px;
+  height: 650px;
   align-content: space-between;
+  gap: 2em;
 
 
 }
