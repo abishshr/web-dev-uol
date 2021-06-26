@@ -154,6 +154,7 @@ tr{
     background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
     background-repeat: round;
     background-size: 400px;
+    ;
   }
 
 .about-the-park-body-content {
@@ -161,29 +162,6 @@ tr{
   }
 
 
-/* Creating a body wrap for adding a background image for Things to do page  */
-.things-to-do-body-wrap {
-    position: relative;
-  }
-  
-.things-to-do-body-wrap:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-    background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
-    background-repeat: round;
-    background-size: 400px;
-    
-
-  }
-.things-to-do-body-content {
-    position: relative;
-  }
 /* navigation bar   */
 .navbar {
   list-style-type: none;
@@ -193,7 +171,7 @@ tr{
   background-color: #333;
   position:fixed;
   top: 0;
-  width: 99.3%;
+  width: 100%;
   opacity: .9;
   z-index: 7000;
 
@@ -245,6 +223,7 @@ background-color: #04AA6D;
 footer{
 	/* position: fixed; */
 	bottom: 0;
+
  
 }
 
@@ -256,13 +235,15 @@ footer{
 .footer-distributed{
 	background-color: #333;
 	box-sizing: border-box;
-	width: 100%;
+	width: 140%;
 	text-align: left;
 	font: bold 16px sans-serif;
 	/* padding: 50px 50px 60px 50px; */
   padding: 15px 15px 20px 15px;
 	margin-top: 70px;
   opacity: 0.9;
+  position: relative;
+
 
 }
 
@@ -422,22 +403,12 @@ footer{
 /* All Spider Man  object uses same blue color to help user identify */
 #i-tod-spiderman-image {
   border: 2px solid #2B3784;
-  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
-  /* box-shadow: 10px 10px 5px #2B3784;
-    -moz-box-shadow: 10px 10px 5px #2B3784;
-    -webkit-box-shadow: 10px 10px 5px #2B3784;
-    -khtml-box-shadow: 10px 10px 5px #2B3784; */
     box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
   
 }
 /* All hulk  object uses same hulk green color to help user identify */
 #i-tod-hulk-image {
   border: 2px solid #008000;
-  /* box-shadow: 10px 5px 5px rgb(240, 19, 30); */
-  /* box-shadow: 10px 10px 5px #008000;
-    -moz-box-shadow: 10px 10px 5px #008000;
-    -webkit-box-shadow: 10px 10px 5px #008000;
-    -khtml-box-shadow: 10px 10px 5px #008000; */
     box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;    
   
 }
@@ -509,36 +480,190 @@ footer{
   
   
 }
+/* -------------Things to Do Specific styling is below------------------------ */
 
+/* Creating a body wrap for adding a background image for Things to do page  */
+.things-to-do-body-wrap {
+  position: relative;
+
+}
+
+.things-to-do-body-wrap:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 140%;
+  height: 100%;
+  opacity: 0.2;
+  background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
+  background-repeat:round;
+  background-size:width;
+ 
+
+
+}
+.things-to-do-body-content {
+  position: relative; 
+}
+
+
+.outer-grid{
+  position: relative;
+}
 /* Things to do page  */
 .top-grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 600px;
-  height: 800px;
+  height: 750px;
   align-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  gap :7em;
+  justify-content: left;
+ 
+}
 
+.top-right:hover,.top-center:hover,.top-left:hover,
+.middle-right:hover,.middle-center:hover,.middle-left:hover,
+.bottom-right:hover,.bottom-center:hover,.bottom-left:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .middle-grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 600px;
-  height: 700px;
+  height: 750px;
   align-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  gap :7em;
+  position: relative;
+
 }
 .bottom-grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 600px;
-  height: 700px;
+  height: 750px;
   align-content: space-between;
+  gap :7em;
+  position: relative;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .tod-heading-content ,.tod-heading-main ,.top-grid h3,.middle-grid h3,.bottom-grid h3{
   text-align: center;
+}
+
+
+.top-grid h3,.middle-grid h3,.bottom-grid h3{
+  position: absolute;
+  color: white;
+  bottom: 105px;
+  left:50px;
+  font-family: 'Marvel', sans-serif;
+
+
+
+}
+.top-right,.top-center,.top-left,
+.middle-right,.middle-center,.middle-left,
+.bottom-right,.bottom-center,.bottom-left{
+  position: relative;
+  text-align: left;
+
+  transition: transform .2s; /* Animation */
+ 
+}
+.top-right h3{
+  position: absolute;
+  color: white;
+  bottom: 125px;
+  left:50px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+.top-center h3{
+  position: absolute;
+  color: white;
+  bottom: 145px;
+  left:50px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+.top-left h3{
+  position: absolute;
+  color: white;
+  bottom: 122px;
+  left:50px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+
+.middle-right h3{
+  position: absolute;
+  color: white;
+  bottom: 125px;
+  left:10px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+.middle-center h3{
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  left:10px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+.middle-left h3{
+  position: absolute;
+  color: white;
+  bottom: 60px;
+  left:10px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+
+.bottom-right h3{
+  position: absolute;
+  color: white;
+  bottom: 125px;
+  left:10px;
+  font-family: 'Marvel', sans-serif;
+ 
+ 
+}
+.bottom-center h3{
+  position: absolute;
+  color: white;
+  bottom: 35px;
+  left:10px;
+  font-family: 'Marvel', sans-serif;
+
+ 
+}
+.bottom-left h3{
+  position: absolute;
+  color: white;
+  bottom: 55px;
+  left:10px;
+  font-family: 'Marvel', sans-serif;
+ 
+ 
 }
 
 /* Things to do page image slider  */
@@ -554,7 +679,7 @@ footer{
 
 .slide {
   background-color: black;
-  width: 100%;
+  width: 140%;
   overflow: hidden;
   position: absolute;
   height: 100%;
@@ -710,5 +835,43 @@ footer{
   font-variant: normal;
   text-shadow: 1px 1px 2px black;
   opacity: .7;
+  animation-name: focus-in-contract;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+}
+
+@keyframes focus-in-contract {
+  0%{
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+.outer-grid{
+  width: 100%;
+}
+
+
+
+.top-grid-1{
+  display: flex;
+}
+
+.top-right1,.top-center1,.top-left1{
+width: 500px;
+min-height: 500px;
 
 }
