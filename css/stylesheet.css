@@ -76,12 +76,13 @@ h3{
 
 #i-aip-map-image {
   box-shadow: 10px 10px 5px grey;
+  border-radius: 20px;  
 }
 #InfinityImageMap {
-  padding-left: 10%;
+  padding-left: 5%;
 }
 #InfinityCaption{
-  padding-left: 40%;
+  padding-left: 45%;
   font-family: 'Marvel', sans-serif;
   font-style: normal;
   font-size: 1.3em;
@@ -127,7 +128,7 @@ tr{
     opacity: 0.1;
     background-image:  url('https://www.wallpaperup.com/uploads/wallpapers/2013/08/28/139975/7d64d84d499b26ed32601b80c6c6fb66.jpg');
     /* background-repeat: round; */
-    background-size: 3000px;
+    background-size: width;
 
 
 
@@ -249,51 +250,76 @@ footer{
 
 }
 
+.index-footer-distributed{
+	background-color: #333;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	/* padding: 50px 50px 60px 50px; */
+  padding: 15px 15px 20px 15px;
+	margin-top: 70px;
+  opacity: 0.9;
+  position: relative;
+
+
+}
+
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed .footer-right,
+.index-footer-distributed .footer-left,
+.index-footer-distributed .footer-center,
+.index-footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
 }
 
 /* Footer left */
-.footer-distributed .footer-left{
+.footer-distributed .footer-left
+.index-footer-distributed .footer-left{
 	width: 20%;
   margin-right: 3%;
   margin-left: 0%;
   
 }
 
-.footer-distributed h3{
+.footer-distributed h3,
+.index-footer-distributed h3{
 	color:  #ffffff;
 	font: normal 17px 'Cookie', cursive;
 	margin: 0;
 }
 
 /* The company logo */
-.footer-distributed .footer-left img{
+.footer-distributed .footer-left img,
+.index-footer-distributed .footer-left img{
 	width: 40%;
 }
 
-.footer-distributed h3 span{
+.footer-distributed h3 span,
+.index-footer-distributed h3 span{
 	color:  #e0ac1c;
   
 }
 
 /* Footer links */
-.footer-distributed .footer-links{
+.footer-distributed .footer-links,
+.index-footer-distributed .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 }
 
-.footer-distributed .footer-links a{
+.footer-distributed .footer-links a,
+.index-footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
 
-.footer-distributed .footer-company-name{
+.footer-distributed .footer-company-name,
+.index-footer-distributed .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
@@ -301,14 +327,16 @@ footer{
 }
 
 /* Footer Center */
-.footer-distributed .footer-center{
+.footer-distributed .footer-center,
+.index-footer-distributed .footer-center{
 	width: 20%;
   margin-right: 20%;
   margin-left: 15%;
 }
 
 
-.footer-distributed .footer-center i{
+.footer-distributed .footer-center i,
+.index-footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -321,38 +349,44 @@ footer{
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-distributed .footer-center i.fa-envelope,
+.index-footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-distributed .footer-center p,
+.index-footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
 }
 
-.footer-distributed .footer-center p span{
+.footer-distributed .footer-center p span,
+.index-footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.footer-distributed .footer-center p a,
+.index-footer-distributed .footer-center p a{
 	color:  #e0ac1c;
 	text-decoration: none;;
 }
 
 
 /* Footer Right */
-.footer-distributed .footer-right{
+.footer-distributed .footer-right,
+.index-footer-distributed .footer-right{
 	width: 20%;
   
 }
 
-.footer-distributed .footer-company-about{
+.footer-distributed .footer-company-about,
+.index-footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #92999f;
 	font-size: 13px;
@@ -360,7 +394,8 @@ footer{
 	margin: 10;
 }
 
-.footer-distributed .footer-company-about span{
+.footer-distributed .footer-company-about span,
+.index-footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
 	font-size: 18px;
@@ -368,11 +403,13 @@ footer{
 	margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+.footer-distributed .footer-icons,
+.index-footer-distributed .footer-icons{
 	margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.footer-distributed .footer-icons a,
+.index-footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -822,7 +859,7 @@ border-radius: 20px;
   top:-100px;
   bottom: 10px;
   width: 100%;
-  height: 25%; 
+  height: 23%; 
   z-index:400;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
