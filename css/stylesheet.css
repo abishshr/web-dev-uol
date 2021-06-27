@@ -151,7 +151,8 @@ tr{
     position: absolute;
     left: 0;
     top: 0;
-    width: 140%;
+    width: 100%;
+    min-width: 1500px;
     height: 100%;
     opacity: 0.2;
     background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
@@ -238,12 +239,16 @@ footer{
 .footer-distributed{
 	background-color: #333;
 	box-sizing: border-box;
-	width: 140%;
+	width: 100%;
+  min-width: 1500px;
 	text-align: left;
 	font: bold 16px sans-serif;
 	/* padding: 50px 50px 60px 50px; */
-  padding: 15px 15px 20px 15px;
+  /* padding: 15px 15px 20px 15px; */
+  padding-left: 15px;
+  padding-right: 0%;
 	margin-top: 70px;
+
   opacity: 0.9;
   position: relative;
 
@@ -545,7 +550,8 @@ border-radius: 20px;
   position: absolute;
   left: 0;
   top: 0;
-  width: 140%;
+  width: 100%;
+  min-width: 1500px;
   height: 100%;
   opacity: 0.2;
   background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
@@ -568,12 +574,12 @@ border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 600px;
-  height: 750px;
+  width: 400px;
+  height: 650px;
   align-content: space-between;
-  padding-left: 2em;
-  padding-right: 2em;
-  gap :7em;
+  padding-left: .3em;
+  padding-right: .3em;
+  gap :2em;
   justify-content: left;
  
 }
@@ -587,12 +593,12 @@ border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 600px;
-  height: 750px;
+  width: 400px;
+  height: 650px;
   align-content: space-between;
-  padding-left: 2em;
-  padding-right: 2em;
-  gap :7em;
+  padding-left: .3em;
+  padding-right: .3em;
+  gap :2em;
   position: relative;
 
 }
@@ -600,13 +606,13 @@ border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 600px;
+  width: 400px;
   height: 750px;
   align-content: space-between;
-  gap :7em;
+  gap :2em;
   position: relative;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: .3em;
+  padding-right: .3em;
 }
 
 .tod-heading-content ,.tod-heading-main ,.top-grid h3,.middle-grid h3,.bottom-grid h3{
@@ -636,7 +642,7 @@ border-radius: 20px;
 .top-right h3{
   position: absolute;
   color: white;
-  bottom: 125px;
+  bottom: 145px;
   left:50px;
   font-family: 'Marvel', sans-serif;
 
@@ -645,7 +651,7 @@ border-radius: 20px;
 .top-center h3{
   position: absolute;
   color: white;
-  bottom: 145px;
+  bottom: 189px;
   left:50px;
   font-family: 'Marvel', sans-serif;
 
@@ -654,7 +660,7 @@ border-radius: 20px;
 .top-left h3{
   position: absolute;
   color: white;
-  bottom: 122px;
+  bottom: 165px;
   left:50px;
   font-family: 'Marvel', sans-serif;
 
@@ -664,7 +670,7 @@ border-radius: 20px;
 .middle-right h3{
   position: absolute;
   color: white;
-  bottom: 125px;
+  bottom: 175px;
   left:10px;
   font-family: 'Marvel', sans-serif;
 
@@ -672,8 +678,8 @@ border-radius: 20px;
 }
 .middle-center h3{
   position: absolute;
-  color: white;
-  bottom: 100px;
+  color: black;
+  bottom: 120px;
   left:10px;
   font-family: 'Marvel', sans-serif;
 
@@ -682,7 +688,7 @@ border-radius: 20px;
 .middle-left h3{
   position: absolute;
   color: white;
-  bottom: 60px;
+  bottom: 80px;
   left:10px;
   font-family: 'Marvel', sans-serif;
 
@@ -692,7 +698,7 @@ border-radius: 20px;
 .bottom-right h3{
   position: absolute;
   color: white;
-  bottom: 125px;
+  bottom: 175px;
   left:10px;
   font-family: 'Marvel', sans-serif;
  
@@ -710,7 +716,7 @@ border-radius: 20px;
 .bottom-left h3{
   position: absolute;
   color: white;
-  bottom: 55px;
+  bottom: 85px;
   left:10px;
   font-family: 'Marvel', sans-serif;
  
@@ -730,7 +736,8 @@ border-radius: 20px;
 
 .slide {
   background-color: black;
-  width: 140%;
+  width: 100%;
+  min-width: 1500px;
   overflow: hidden;
   position: absolute;
   height: 100%;
