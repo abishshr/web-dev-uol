@@ -276,7 +276,7 @@ footer{
 }
 
 /* Footer left */
-.footer-distributed .footer-left
+.footer-distributed .footer-left,
 .index-footer-distributed .footer-left{
 	width: 20%;
   margin-right: 3%;
