@@ -5,8 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
-
 h1{
     font-family: 'Marvel', sans-serif;
     font-style: normal;
@@ -154,7 +152,7 @@ tr{
     width: 100%;
     min-width: 1500px;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0.1;
     background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
     background-repeat:round;
     background-size:width;
@@ -553,7 +551,7 @@ border-radius: 20px;
   width: 100%;
   min-width: 1500px;
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.1;
   background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
   background-repeat:round;
   background-size:width;
