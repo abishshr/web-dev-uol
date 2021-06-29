@@ -1,3 +1,13 @@
+<!-- The ordering of the Things to Do Page is designed according to each division's importance 
+        1)the Navigation Bar at top, similar to all pages
+        2)Right Below the navigation bar a image slideshow has been added
+        3)Three most important Things this park offers is Rides,Shows and Safari .Picture and a short description is provided for the audience  on each aspect 
+        4)Footer
+    Main contributors of this page : Can and Pradhyumnaa 
+    Reviewers /additional contributors of this page: Jon and Abish
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +17,15 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Infinity Park</title>
 </head>
-<!-- The ordering of the Things to Do Page is designed according to each division's importance 
-        1)the Navigation Bar at top, similar to all pages
-        2)Three most important Things this park offers is Rides,Shows and Safari .Picture and a short description is provided for the audience  on each aspect 
-        3)Footer
-    all the below code is contributed by Abish,Pietro,Jon,Can and Pradhyumnaa -->
+
 <!-- Body starts here -->
 <body>
 
     <div class="things-to-do-body-wrap">
             
         <div class="things-to-do-body-content">      
-<!--Nav Bar HTML Code. Using Unordered List Tags for the Links to other pages. Button Tags for 2 buttons present in the navigation bar of the website, which is the Sign In/ Sign Up and Buy Tickets Button.-->            
+<!--Nav Bar HTML Code. Using Unordered List Tags for the Links to other pages. 
+    Button Tags for 2 buttons present in the navigation bar of the website, which is the Sign In/ Sign Up and Buy Tickets Button.-->            
             <navbar class = "navbar">
                 <li class = "nav-item-logo"><a href="index.html" ><img src="Media/img/logo.jpg" width = " 150" height = "50" ></a></li>
                 <li class = "nav-item-page-link"> <a href="Things-to-do.html" class="navlinks">Things to Do</a></li>
@@ -26,7 +33,7 @@
                 <li class = "nav-item-page-button"><button>Buy Tickets</button></li>
                 <li class = "nav-item-page-button"><button>Sign In/Sign Up</button></li>
             </navbar>
-            
+    <!------Image Slider---------->
             <div class="slider-wrapper">
                 <div class="slider">
                     <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
@@ -58,197 +65,173 @@
                     <li class="slider-nav__item"><label class="slider-nav__label" for="three">3</label></li>
                 </ul><!-- .slider-nav -->
             </div><!-- .slider-wrapper -->
-
- <!-- <div style="padding:20px;margin-top:30px"> -->
+    <!-- Main Heading -->
             <div class ="tod-heading-main">
                 <h1>All the Amazing Things you can do here </h1>
             </div>
             
             <div class="outer-grid">
-<!-- Below are the main three Rides offered -->
+    <!-- Below are the main three Rides offered -->
                 <div class ="tod-heading-content">
                     <h2>Checkout all the Fantastic Rides this park offers </h2>
                 </div>
                 
-                <div class="top-grid">
-                    <div class="top-right">
-                        <figure>
-                            <img src="Media/img/Things-to-do-Ride-1-Battle-of-Ultron.jpg" alt="Battle of Ultron Image" id = "tod-ultron-image" width= "400" height= "400">
-                            <div class="avengers-text">
-                                <h3>Avengers: Battle of Ultron</h3>
+                    <div class="top-grid">
+                        <div class="top-right">
+                            <figure>
+                                <img src="Media/img/Things-to-do-Ride-1-Battle-of-Ultron.jpg" alt="Battle of Ultron Image" id = "tod-ultron-image" width= "400" height= "400">
+                                <div class="avengers-text">
+                                    <h3>Avengers: Battle of Ultron</h3>
+                                    <p>
+                                        Join forces with The Avengers at Worlds of Adventure in an exhilarating 4D dark ride
+                                        as they engage in a fierce struggle for survival against one of the planet’s most notorious enemies.<br>
+                                    </p>
+                                </div>
+                            </figure>  
+                        </div>
+                        <div class="top-center">
+                            <figure>
+                                <img src="Media/img/Things-to-do-Ride-2-SpiderMan.jpg" alt="SpiderMan Ride Image" id = "i-tod-spiderman-image" width= "400" height= "400">
+                                <h3>The Amazing Adventures of Spider-Man</h3>
                                 <p>
-                                    Join forces with The Avengers at Worlds of Adventure in an exhilarating 4D dark ride
-                                    as they engage in a fierce struggle for survival against one of the planet’s most notorious enemies.<br>
+                                    Strap on your 3-D glasses and join the world's most famous web slinger in a high-flying virtual reality ride. <br>
+                                    The villains of the Sinister Syndicate have stolen the Statue of Liberty and it's up to Spidey to save the day.<br>
+                                    <em>Be Ready to swing side to side !</em>
+                                </p>
+                            </figure>
+                        </div>
+                        <div class="top-left">
+                            <figure>
+                                <img src="Media/img/Things-to-do-Ride-3-Hulk.png" alt="Hulk Ride Image" id = "i-tod-hulk-image" width= "400" height= "400">
+                                    <h3>Worlds Tallest Roller coaster Hulk</h3>
+                                    <p>
+                                        There’s a reason this coaster is known as the Hulk , 
+                                        Hulk is quite simply the tallest coaster in the world and fastest roller coaster in North America. <br>
+                                        Is that impressive enough to warrant royalty? You bet it is.
+                                    </p>
+                            </figure>
+                        </div> 
+                    </div>
+            <div class ="tod-heading-content">
+                <h2>All the exciting Events and exclusive Live Shows this park offers</h2>
+            </div>    
+            <!-- Below are the main three Shows offered -->
+                    <div class="middle-grid">
+                        <figure>
+                            
+                            <div class="middle-left">
+                                <img src="Media/img/Things-to-do-Event-Live-Show.png" alt="Live Show Image" id = "tod-live-image" width= "400" height= "400">
+                                <h3>Marvel Universe Live!</h3>
+                                <p>See Marvel’s greatest Super Heroes unite against some of the most threatening villains in the Marvel Universe.</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="middle-center">
+                                <img src="Media/img/Things-to-do-Event-CaptainMarvelEvent.png" alt="Captain Marvel Show Image" id = "tod-live-image" width= "400" height= "400">
+                                <h3>Exclusive New Captain Marvel Show  </h3>
+                                <p>
+                                    Be the first to see Captain Marvel in this Exclusive Opening Night Fan Event!<br>
+                                    <em>Event ticket includes Collectors Captain Marvel challenge coin and a free medium popcorn!</em>
+                                </p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="middle-right">
+                                <img src="Media/img/Things-to-do-Event-Meet.png" alt="Meet and Greet Event Image" id = "tod-live-image" width= "400" height= "400">
+                                <h3>Meet all your Favorite Marvel Characters </h3>
+                                <p>
+                                    Marvel characters at Infinity Park is an all exclusive event for our Annual Pass Members. <br> 
+                                    There is something so fun about seeing someone that you know and love, 
+                                    getting the chance to give them a hug, get a photo, and possibly grabbing an autograph.
                                 </p>
                             </div>
                         </figure>  
                     </div>
-                    <div class="top-center">
-                        <figure>
-                            <img src="Media/img/Things-to-do-Ride-2-SpiderMan.jpg" alt="SpiderMan Ride Image" id = "i-tod-spiderman-image" width= "400" height= "400">
-                            <h3>The Amazing Adventures of Spider-Man</h3>
+        <!-- Below are the main three Safaris offered -->
+            <div class ="tod-heading-content">
+                <h2>Ride and Dine in our all exclusive member only Safari Park </h2>
+            </div>
+                <div class="bottom-grid">
+                    <figure>
+                    
+                        <div class="bottom-left">
+                            <img src="Media/img/Things-to-do-Safari.jpg" alt="Safari Ride Image" id ="tod-safari-image" width= "400" height= "400"/>
+                            <h3>Infinity Safaris</h3>
                             <p>
-                                Strap on your 3-D glasses and join the world's most famous web slinger in a high-flying virtual reality ride. <br>
-                                The villains of the Sinister Syndicate have stolen the Statue of Liberty and it's up to Spidey to save the day.<br>
-                                <em>Be Ready to swing side to side !</em>
+                                Set off in an open-air vehicle for a guided tour of an African savanna—and spot live animals roaming free.
                             </p>
-                        </figure>
+                            </div>
+                    </figure>
+                    <figure>
+
+                        <div class="bottom-center">
+                            <img src="Media/img/Things-to-do-Safari-dinner.jpg" alt="Safari dinner Image" id ="tod-safari-image" width= "400" height= "400"/>
+                            <h3>Dinner Safari</h3>
+                            <p>
+                                African safari view while you eat.
+                            </p>
+                        </div>
+                    </figure>
+                    <figure>
+                        
+                        <div class="bottom-right">
+                            <img src="Media/img/Things-to-do-Safari-Drive-through.jpg" alt="Safari drive through Image" id ="tod-safari-image" width= "400" height= "400"/>
+                            <h3>Drive Through Safari</h3>
+                            <p>
+                                Expanding across 85 acres of untouched scenic landscapes, our wildlife and safari park presents a unique opportunity to bring you up close 
+                                and personal with wild animals such as giraffes, zebra, eland antelope, scimitar oryx, American bison, mouflon sheep, and more!
+                            </p>
+                        </div>
+                    </figure>  
+                </div>
+            </div>
+
+
+    <!--Footer HTML Code. Using Divs to separate contents into logical structures which belong together. 
+        Sitemap Div for Web Page links, Contact Us Div for Contact Links such as Phone and Email and Social Media Links for the Social Media Buttons. 
+        These buttons will be added via FontAwesome using the commented out script in the head.-->
+            <footer class="footer-distributed">
+
+                <div class="footer-left">
+                    <img src="Media/img/logo.jpg">
+                    <h3>The greatest Marvel Park in the world.</h3>
+                    <p class="footer-links">
+                        <a href="index.html">Home</a>
+                        |
+                        <a href="Things-to-do.html">Things to Do</a>
+                        |
+                        <a href="About-the-park.html">About</a>
+                    </p>
+                    <p class="footer-company-name">© 2021 Infinity Park Inc. All rights reserved</p>
+                </div>
+
+                <div class="footer-center">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>177A Bleecker Street</span>
+                            Orlando FL 32801 , USA </p>
                     </div>
-        <div class="top-left">
-            <figure>
-                <img src="Media/img/Things-to-do-Ride-3-Hulk.png" alt="Hulk Ride Image" id = "i-tod-hulk-image" width= "400" height= "400">
-                
-                    <h3>Worlds Tallest Roller coaster Hulk</h3>
-                    <p>
-                        There’s a reason this coaster is known as the Hulk , 
-                         Hulk is quite simply the tallest coaster in the world and fastest roller coaster in North America. <br>
-                         Is that impressive enough to warrant royalty? You bet it is.
-                    </p>
-                  
-            </figure>
-        </div> 
-        <!-- <div class="top-left2">
-            <figure>
-                <img src="Media/img/About-the-park-Ride-1-ironman.jpg" alt="Hulk Ride Image" id = "i-aip-ironman-image" width= "400" height= "400">
-                
-                    <h3>Worlds Tallest Roller coaster Hulk</h3>
-                    <p>
-                        There’s a reason this coaster is known as the Hulk , 
-                         Hulk is quite simply the tallest coaster in the world and fastest roller coaster in North America. <br>
-                         Is that impressive enough to warrant royalty? You bet it is.
-                    </p>
-                  
-            </figure>
-        </div>  -->
-    
-        </div>
-    <div class ="tod-heading-content">
-        <h2>All the exciting Events and exclusive Live Shows this park offers</h2>
-    </div>    
-<!-- Below are the main three Shows offered -->
-        <div class="middle-grid">
-            <figure>
-                
-                <div class="middle-left">
-                    <img src="Media/img/Things-to-do-Event-Live-Show.png" alt="Live Show Image" id = "tod-live-image" width= "400" height= "400">
-                    <h3>Marvel Universe Live!</h3>
-                    <p>See Marvel’s greatest Super Heroes unite against some of the most threatening villains in the Marvel Universe.</p>
-                  </div>
-            </figure>
-            <figure>
-                
-                <div class="middle-center">
-                    <img src="Media/img/Things-to-do-Event-CaptainMarvelEvent.png" alt="Captain Marvel Show Image" id = "tod-live-image" width= "400" height= "400">
-                    <h3>Exclusive New Captain Marvel Show  </h3>
-                    <p>
-                        Be the first to see Captain Marvel in this Exclusive Opening Night Fan Event!<br>
-                        <em>Event ticket includes Collectors Captain Marvel challenge coin and a free medium popcorn!</em>
-                    </p>
-                  </div>
-            </figure>
-            <figure>
-                
-                <div class="middle-right">
-                    <img src="Media/img/Things-to-do-Event-Meet.png" alt="Meet and Greet Event Image" id = "tod-live-image" width= "400" height= "400">
-                    <h3>Meet all your Favorite Marvel Characters </h3>
-                    <p>
-                        Marvel characters at Infinity Park is an all exclusive event for our Annual Pass Members. <br> 
-                        There is something so fun about seeing someone that you know and love, 
-                        getting the chance to give them a hug, get a photo, and possibly grabbing an autograph.
-                    </p>
-                  </div>
-            </figure>  
-          
-        </div>
-<!-- Below are the main three Safaris offered -->
-    <div class ="tod-heading-content">
-        <h2>Ride and Dine in our all exclusive member only Safari Park </h2>
-    </div>
-        <div class="bottom-grid">
-            <figure>
-               
-                <div class="bottom-left">
-                    <img src="Media/img/Things-to-do-Safari.jpg" alt="Safari Ride Image" id ="tod-safari-image" width= "400" height= "400"/>
-                    <h3>Infinity Safaris</h3>
-                    <p>
-                        Set off in an open-air vehicle for a guided tour of an African savanna—and spot live animals roaming free.
-                    </p>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+1 407-672-6666</p>
                     </div>
-            </figure>
-            <figure>
-
-                <div class="bottom-center">
-                    <img src="Media/img/Things-to-do-Safari-dinner.jpg" alt="Safari dinner Image" id ="tod-safari-image" width= "400" height= "400"/>
-                    <h3>Dinner Safari</h3>
-                    <p>
-                        African safari view while you eat.
-                    </p>
-                  </div>
-            </figure>
-            <figure>
-                
-                <div class="bottom-right">
-                    <img src="Media/img/Things-to-do-Safari-Drive-through.jpg" alt="Safari drive through Image" id ="tod-safari-image" width= "400" height= "400"/>
-                    <h3>Drive Through Safari</h3>
-                    <p>
-                        Expanding across 85 acres of untouched scenic landscapes, our wildlife and safari park presents a unique opportunity to bring you up close 
-                        and personal with wild animals such as giraffes, zebra, eland antelope, scimitar oryx, American bison, mouflon sheep, and more!
-                    </p>
-                  </div>
-            </figure>  
-          
-        </div>
-    </div>
-<!-- </div> -->
-
-    <!--Footer HTML Code. Using Divs to separate contents into logical structures which belong together. Sitemap Div for Web Page links, Contact Us Div for Contact Links such as Phone and Email and Social Media Links for the Social Media Buttons. These buttons will be added via FontAwesome using the commented out script in the head.-->
-    <footer class="index-footer-distributed">
-
-        <div class="footer-left">
-    <img src="Media/img/logo.jpg">
-    <h3>The greatest Marvel Park in the world.</h3>
-            <p class="footer-links">
-                <a href="index.html">Home</a>
-                |
-                <a href="Things-to-do.html">Things to Do</a>
-                |
-                <a href="About-the-park.html">About</a>
-               
-            </p>
-
-            <p class="footer-company-name">© 2021 Infinity Park Inc. All rights reserved</p>
-        </div>
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>177A Bleecker Street</span>
-                    Orlando FL 32801 , USA </p>
-            </div>
-
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 407-672-6666</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@infinitypark.com">support@infinitypark.com</a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>Connect With Us</span>
-               
-            <div class="footer-icons">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
-            </div>
-        </div>
-    </footer>
-    
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@infinitypark.com">support@infinitypark.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span>Connect With Us</span>
+                    <div class="footer-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
 
