@@ -49,6 +49,65 @@ tr{
     font-family:'Rubik','Marvel','Raleway',sans-serif;
     font-weight: 300;
 }
+<<<<<<< Updated upstream
+=======
+
+/* Creating a body wrap for adding a background image for index page  */
+.index-body-wrap {
+    position: relative;
+  }
+  
+.index-body-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image:  url('https://www.wallpaperup.com/uploads/wallpapers/2013/08/28/139975/7d64d84d499b26ed32601b80c6c6fb66.jpg');
+    /* background-repeat: round; */
+    background-size: width;
+    z-index: -1;
+
+
+
+  }
+.index-body-content {
+    position: relative;
+  }
+
+
+/* Creating a body wrap for adding a background image for about the park page  */
+.about-the-park-body-wrap {
+    position: relative;
+  }
+
+.about-the-park-body-wrap:before {
+ 
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-width: 1500px;
+    height: 100%;
+    opacity: 0.1;
+    background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
+    background-repeat:round;
+    background-size:width;
+    z-index: -1;
+
+
+  }
+
+.about-the-park-body-content {
+    position: relative;
+  }
+
+>>>>>>> Stashed changes
 /* navigation bar   */
 .navbar {
   list-style-type: none;
@@ -128,7 +187,13 @@ footer{
 	font: bold 16px sans-serif;
   padding-left: 15px;
   padding-right: 0%;
+<<<<<<< Updated upstream
 	margin-top: 70px;
+=======
+  margin-top: 70px;
+    border: #333 20px solid;
+
+>>>>>>> Stashed changes
   opacity: 0.9;
   position: relative;
 
@@ -426,6 +491,11 @@ border: 2px solid rgb(240, 19, 30);
   background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
   background-repeat:round;
   background-size:width;
+<<<<<<< Updated upstream
+=======
+z-index: -1;
+
+>>>>>>> Stashed changes
 
 }
 .things-to-do-body-content {
