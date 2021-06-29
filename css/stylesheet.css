@@ -4,6 +4,7 @@
 /*Importing Rubik Font from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* -----------------------All the Common styling between the three pages are below -------------------------------------*/
 h1{
@@ -522,14 +523,6 @@ border-radius: 20px;
   box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px; 
   border-radius: 20px; 
 }
-
-
-.grid-container-aip {
-    display: grid;
-    grid-template-columns: auto auto auto ;
-}
-
-
 
 
 /* --------------------------------Things To Do specific styling/positioning is below--------------------------------------  */
