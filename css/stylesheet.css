@@ -873,13 +873,13 @@ z-index: -1;
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
 }
 #i-hulk-image {
-  filter: brightness(50%);
+  filter: brightness(75%);
   border: 2px solid #008000;
   box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;  
   border-radius: 20px;  
   }
 #i-spiderman-image{
-  filter: brightness(50%);
+  filter: brightness(75%);
   border: 2px solid #2B3784;
   box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
   border-radius: 20px;
@@ -888,7 +888,7 @@ z-index: -1;
     border: 2px solid rgb(240, 19, 30);
     box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
     border-radius: 20px;
-    filter: brightness(50%);
+    filter: brightness(75%);
   }
 
 .video-container {
