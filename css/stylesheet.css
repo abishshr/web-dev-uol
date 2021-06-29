@@ -4,6 +4,8 @@
 /*Importing Rubik Font from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*Importing Raleway Font from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* -----------------------All the Common styling between the three pages are below -------------------------------------*/
@@ -37,42 +39,8 @@ h3{
     color: black;
     
 }
-/*Colouring Headers and paragraphs */
-.RideHulk h2 {
-  color:black;
-}
 
-.RideHulkDescription p {
-  color: green;
-}
 
-.RideHulkOpeningTimes {
-  color: green;
-}
-
-.RideIronMan h2 {
-  color:black;
-}
-
-.RideIronMan p {
-  color:red;
-}
-
-.RideIronManOpeningTimes {
-  color: red;
-}
-
-.RideSpiderman h2 {
-  color:black;
-}
-
-.RideSpiderman p {
-  color:red;
-}
-
-.RideSpidermanOpeningTimes {
-  color: red;
-}
 /* About the park Image box shadow for the map image*/
 #i-aip-map-image {
   box-shadow: 10px 10px 5px grey;
@@ -129,11 +97,8 @@ tr{
     height: 100%;
     opacity: 0.1;
     background-image:  url('https://www.wallpaperup.com/uploads/wallpapers/2013/08/28/139975/7d64d84d499b26ed32601b80c6c6fb66.jpg');
-    /* background-repeat: round; */
     background-size: width;
     z-index: -1;
-
-
 
   }
 .index-body-content {
@@ -487,6 +452,7 @@ border-radius: 20px;
     filter: brightness(50%);
 }
 
+/*Colouring Headers and paragraphs */
 .RideHulk h2,
 .RideIronMan h2 ,
 .RideSpiderman h2{
@@ -1181,7 +1147,7 @@ min-height: 500px;
  }
 
 
-/*Hovering Code for About the Park*/
+/*Hovering animation Code for About the Park*/
 #i-aip-spiderman-image:hover{
     transform: scale(1.1);
     transition: transform 0.2s;
