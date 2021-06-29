@@ -433,23 +433,11 @@ footer{
   position: relative;
 }
 
-#i-hulk-image {
-filter: brightness(50%);
-border: 2px solid #008000;
-box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;  
-border-radius: 20px;  
-}
-#i-spiderman-image {
-filter: brightness(50%);
-border: 2px solid #2B3784;
-box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
-border-radius: 20px;
-}
-#i-ironman-image,#i-aip-mex-image, #i-aip-ita-image {
+#i-aip-mex-image, #i-aip-ita-image {
   border: 2px solid rgb(240, 19, 30);
     box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
     border-radius: 20px;
-    filter: brightness(50%);
+    
 }
 
 /*Colouring Headers and paragraphs */
@@ -884,8 +872,24 @@ z-index: -1;
   -webkit-box-shadow: 4px 4px 2px RGB(255, 120, 70);
   -moz-box-shadow: 4px 4px 4px RGB(255, 120, 70);
 }
-
-
+#i-hulk-image {
+  filter: brightness(50%);
+  border: 2px solid #008000;
+  box-shadow: rgba(0,128,0, 0.8) 0px 7px 29px 0px;  
+  border-radius: 20px;  
+  }
+#i-spiderman-image{
+  filter: brightness(50%);
+  border: 2px solid #2B3784;
+  box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
+  border-radius: 20px;
+  }
+#i-ironman-image{
+    border: 2px solid rgb(240, 19, 30);
+    box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
+    border-radius: 20px;
+    filter: brightness(50%);
+  }
 
 .video-container {
   position:absolute;
@@ -916,14 +920,14 @@ z-index: -1;
 .index-heading-main{
 
   text-align: center;
-  padding-top: 670px;
+  padding-top: 570px;
   font-family: 'Marvel', arial;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: bold;
   color: black;
   font-variant: normal;
   text-shadow: 1px 1px 2px black;
-  opacity: .7;
+  opacity: .9;
   animation-name: focus-in-contract;
   animation-duration: 1s;
   animation-timing-function: ease;
@@ -947,14 +951,9 @@ z-index: -1;
 }
 
 
-
-
 .outer-grid{
   width: 100%;
 }
-
-
-
 .top-grid-1{
   display: flex;
 }
@@ -962,7 +961,6 @@ z-index: -1;
 .top-right1,.top-center1,.top-left1{
 width: 500px;
 min-height: 500px;
-
 }
 
 
