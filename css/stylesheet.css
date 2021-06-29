@@ -36,71 +36,6 @@ h3{
     color: black;
     
 }
-<<<<<<< HEAD
-/*Colouring Headers and paragraphs */
-.RideHulk h2 {
-  color:black;
-}
-
-.RideHulkDescription p {
-  color: green;
-}
-
-.RideHulkOpeningTimes {
-  color: green;
-}
-
-.RideIronMan h2 {
-  color:black;
-}
-
-.RideIronMan p {
-  color:red;
-}
-
-.RideIronManOpeningTimes {
-  color: red;
-}
-
-.RideSpiderman h2 {
-  color:black;
-}
-
-.RideSpiderman p {
-  color:red;
-}
-
-.RideSpidermanOpeningTimes {
-  color: red;
-}
-/* About the park Image box shadow for the map image*/
-#i-aip-map-image {
-  box-shadow: 10px 10px 5px grey;
-  border-radius: 20px;  
-}
-#InfinityImageMap {
-  padding-left: 1%;
-}
-#InfinityCaption{
-  padding-left: 45%;
-  font-family: 'Marvel', sans-serif;
-  font-style: normal;
-  font-size: 1.3em;
-  font-weight: bold;
-}
-#i-aip-ironman-image {
-  box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px; 
-  border-radius: 20px; 
-}
-
-/*Creates the 3 image grid on about the park*/
-.grid-container-aip {
-    display: grid;
-    grid-template-columns: auto auto auto ;
-}
-
-=======
->>>>>>> ca2d168887dd8cf87a6d6ea7602a676191c33008
 p{
   font-family: 'Rubik','Marvel','Raleway',sans-serif;
   font-weight: 400;
@@ -114,64 +49,6 @@ tr{
     font-family:'Rubik','Marvel','Raleway',sans-serif;
     font-weight: 300;
 }
-
-
-/* Creating a body wrap for adding a background image for index page  */
-.index-body-wrap {
-    position: relative;
-  }
-  
-.index-body-wrap:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background-image:  url('https://www.wallpaperup.com/uploads/wallpapers/2013/08/28/139975/7d64d84d499b26ed32601b80c6c6fb66.jpg');
-    /* background-repeat: round; */
-    background-size: width;
-    z-index: -1;
-
-
-
-  }
-.index-body-content {
-    position: relative;
-  }
-
-
-/* Creating a body wrap for adding a background image for about the park page  */
-.about-the-park-body-wrap {
-    position: relative;
-  }
-
-.about-the-park-body-wrap:before {
- 
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    min-width: 1500px;
-    height: 100%;
-    opacity: 0.1;
-    background-image:  url('https://wallpaperaccess.com/full/4065699.jpg');
-    background-repeat:round;
-    background-size:width;
-    z-index: -1;
-
-
-  }
-
-.about-the-park-body-content {
-    position: relative;
-  }
-
-
 /* navigation bar   */
 .navbar {
   list-style-type: none;
@@ -251,13 +128,7 @@ footer{
 	font: bold 16px sans-serif;
   padding-left: 15px;
   padding-right: 0%;
-
 	margin-top: 70px;
-
-  margin-top: 70px;
-    border: #333 20px solid;
-
-
   opacity: 0.9;
   position: relative;
 
@@ -482,19 +353,11 @@ border: 2px solid #2B3784;
 box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
 border-radius: 20px;
 }
-<<<<<<< HEAD
-#i-ironman-image,#i-aip-mex-image, #i-aip-ita-image {
-  border: 2px solid rgb(240, 19, 30);
-    box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
-    border-radius: 20px;
-    filter: brightness(50%);
-=======
 #i-ironman-image {
 border: 2px solid rgb(240, 19, 30);
   box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
   border-radius: 20px;
   filter: brightness(50%);
->>>>>>> ca2d168887dd8cf87a6d6ea7602a676191c33008
 }
 
 .RideHulk h2,
@@ -563,10 +426,6 @@ border: 2px solid rgb(240, 19, 30);
   background-image:  url("https://wallpaperaccess.com/full/4065699.jpg");
   background-repeat:round;
   background-size:width;
-
-z-index: -1;
-
-
 
 }
 .things-to-do-body-content {
@@ -883,7 +742,7 @@ z-index: -1;
 
 
 
-/* --------------------------------Main/Index page specific styling/positioning is below--------------------------------------  */
+/* -------------------------------- Main/Index page specific styling/positioning is below--------------------------------------  */
 
 /* Creating a body wrap for adding a background image for index page  */
 .index-body-wrap {
@@ -1199,27 +1058,3 @@ min-height: 500px;
  }
 
 
-<<<<<<< HEAD
-/*Hovering Code for About the Park*/
-#i-aip-spiderman-image:hover{
-    transform: scale(1.1);
-    transition: transform 0.2s;
-}
-#i-aip-hulk-image:hover{
-  transform: scale(1.1);
-  transition: transform 0.2s;
-}
-#i-aip-ironman-image:hover{
-    transform: scale(1.1);
-    transition: transform 0.2s;
-}
-#i-aip-mex-image:hover{
-    transform: scale(1.1);
-    transition: transform 0.2s;
-}
-#i-aip-ita-image:hover{
-    transform: scale(1.1);
-    transition: transform 0.2s;
-}
-=======
->>>>>>> ca2d168887dd8cf87a6d6ea7602a676191c33008
