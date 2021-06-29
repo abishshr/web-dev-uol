@@ -8,7 +8,7 @@
 
 /* -----------------------All the Common styling between the three pages are below -------------------------------------*/
 h1{
-    font-family: 'Marvel', 'Raleway',sans-serif;
+    font-family: 'Marvel', 'Raleway','Arial',sans-serif;
     font-style: normal;
     font-size: 3.5em;
     font-weight: bold;
@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-  font-family: 'Marvel','Raleway',sans-serif;
+  font-family: 'Marvel','Raleway','Arial',sans-serif;
   font-weight: 400;
   font-style: regular;
   font-weight: bold;
@@ -29,7 +29,7 @@ h2{
 }
 
 h3{
-    font-family: 'Marvel','Raleway',sans-serif;
+    font-family: 'Marvel','Raleway','Arial',sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -100,7 +100,7 @@ h3{
 }
 
 p{
-  font-family: 'Rubik','Marvel','Raleway',sans-serif;
+  font-family: 'Rubik','Marvel','Raleway','Arial',sans-serif;
   font-weight: 400;
   font-style: normal; 
   font-size: 1.2em;
@@ -109,7 +109,7 @@ p{
 }
 
 tr{
-    font-family:'Rubik','Marvel','Raleway',sans-serif;
+    font-family:'Rubik','Marvel','Raleway','Arial',sans-serif;
     font-weight: 300;
 }
 
@@ -187,7 +187,7 @@ tr{
 /* navigation bar items  */
 .nav-item-page-link {
   float: left;
-  font-family: 'Marvel','Raleway',sans-serif;
+  font-family: 'Marvel','Raleway','Arial',sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.2em;
@@ -200,7 +200,7 @@ tr{
 /* navigation bar logo  */
 .nav-item-page-button {
     float: right;
-    font-family: 'Marvel','Raleway',sans-serif;
+    font-family: 'Marvel','Raleway','Arial',sans-serif;
     font-style: normal;
     font-size: 1.2em;
     padding: 14px 16px; 
