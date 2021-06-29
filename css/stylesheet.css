@@ -35,7 +35,7 @@ h3{
     color: black;
     
 }
-
+/*Colouring Headers and paragraphs */
 .RideHulk h2 {
   color:black;
 }
@@ -71,7 +71,7 @@ h3{
 .RideSpidermanOpeningTimes {
   color: red;
 }
-
+/* About the park Image box shadow for the map image*/
 #i-aip-map-image {
   box-shadow: 10px 10px 5px grey;
   border-radius: 20px;  
@@ -91,7 +91,7 @@ h3{
   border-radius: 20px; 
 }
 
-
+/*Creates the 3 image grid on about the park*/
 .grid-container-aip {
     display: grid;
     grid-template-columns: auto auto auto ;
@@ -472,7 +472,7 @@ footer{
   box-shadow: rgba(8, 123, 190, 0.8) 0px 7px 29px 0px;
 border-radius: 20px;
 }
-#i-ironman-image {
+#i-ironman-image,#i-aip-mex-image, #i-aip-ita-image {
   border: 2px solid rgb(240, 19, 30);
     box-shadow: rgba(170, 5, 5, 0.8) 0px 7px 29px 0px;   
     border-radius: 20px;
@@ -1121,6 +1121,22 @@ min-height: 500px;
 
 /*Hovering Code for About the Park*/
 #i-aip-spiderman-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#i-aip-hulk-image:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+#i-aip-ironman-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#i-aip-mex-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+#i-aip-ita-image:hover{
     transform: scale(1.1);
     transition: transform 0.2s;
 }
